@@ -1,0 +1,10 @@
+[project]
+name = "googleadk-langsmith"
+version = "0.1.0"
+description = "Google ADK with LangSmith demo"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "google-adk>=2.1.0",
+    "langsmith[google-adk]>=0.8.7",
+]
