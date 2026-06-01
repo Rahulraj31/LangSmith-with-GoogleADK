@@ -48,6 +48,10 @@ LangSmith integrates with **Google ADK** to provide:
 2. **Waterfall Analysis**: Visualize the exact latency and execution timeline of parallel or sequential tasks.
 3. **Prompt & Tool Monitoring**: View the precise input prompts, system instructions, and tool arguments passed, as well as the exact raw outputs from Gemini.
 4. **Metadata & Tagging**: Categorize your traces by environment, version, developer, and agent types for efficient filtering and search.
+5. **PII Detection & Client-Side Masking**: Protect sensitive customer data (such as emails, SSNs, or payment details) using customizable SDK anonymizers or LLM Gateway redaction policies before traces leave your environment.
+6. **Golden Dataset Creation**: Promote high-quality production runs and edge cases directly into versioned benchmark datasets for continuous evaluation.
+7. **Human Feedback Loops**: Track user sentiment (e.g., thumbs-up/thumbs-down ratings) inline and route complex traces into annotation queues for expert review.
+8. **Online & Offline Metrics Evaluation**: Monitor aggregated performance trends over time using automated evaluators (like LLM-as-a-judge for correctness and groundedness) combined with developer-defined scores.
 
 ---
 
