@@ -18,6 +18,27 @@ Welcome to the **Google ADK & LangSmith Integration Demo** repository. This proj
 
 ---
 
+## 📂 Repository Structure
+
+The project is organized into two primary customer support use cases along with standard Python environment configuration files:
+
+```text
+.
+├── cust_support_basic/          # Use Case 1: Single-agent customer support
+│   ├── agent.py                 # Core agent definition & tool functions
+│   ├── README.md                # Detailed execution guide & trace examples
+│   └── Langsmith_dashboard_screenshots/
+├── cust_support_multiagent/     # Use Case 2: Multi-agent sequential dispute pipeline
+│   ├── agent.py                 # Sequential dispute resolution pipeline
+│   ├── README.md                # Detailed execution guide & multi-agent trace examples
+│   └── Langsmith_dashboard_ss/
+├── pyproject.toml               # Project dependencies and packaging metadata
+├── uv.lock                      # Locked environment dependencies (uv lockfile)
+└── README.md                    # Root documentation (this file)
+```
+
+---
+
 ## 🔍 What is LangSmith?
 
 **LangSmith** is a developer platform designed for building, debugging, testing, evaluating, and monitoring LLM-powered applications. When building complex agentic systems, understanding what happens under the hood (e.g., system prompts, tools called, LLM outputs, latencies, and token usage) is critical.
