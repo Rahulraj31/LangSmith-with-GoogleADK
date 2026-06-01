@@ -2,6 +2,12 @@
 
 Welcome to the **Google ADK & LangSmith Integration Demo** repository. This project demonstrates how to build and evaluate intelligent agents using the Google Agent Development Kit (ADK) and trace their executions seamlessly using **LangSmith**.
 
+📖 **Read the Full Article:** This repository is the official codebase companion for the Medium article:
+👉 **[Google ADK & LangSmith: Comparing AI Observability with Datadog and Google Native Tooling](https://medium.com/google-cloud/google-adk-langsmith-comparing-ai-observability-with-datadog-and-google-native-tooling-f1e96381bfb3)**
+
+> [!NOTE]
+> **Upcoming Roadmap:** In the near future, this repository will be updated with a demo showing how to capture and track **User/Human Feedback** (such as thumbs-up/thumbs-down signals) directly within LangSmith using the Google ADK. Stay tuned!
+
 ---
 
 ## ⚠️ IMPORTANT NOTE: Google ADK Version & Deprecation
